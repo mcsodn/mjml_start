@@ -1,41 +1,212 @@
 <mjml>
-    <mj-head>
-        <mj-title>Email Starter</mj-title>
+    <mj-body width="1920px"
+    		 background-color="#eee">
+        <mj-section border="0"
+        			padding="0">
+            <mj-column width="480px"            		   
+        			   padding="0">
+                <mj-text align="left"
+                		 color="#939aa4"
+                		 font-size="11px"
+                		 font-family="Helvetica, Arial, sans-serif"
+                		 line-height="0px"
+                		 padding-top="20px"
+                		 padding-left="16px"
+                		 padding-bottom="12px"
+                		 >
+                    Снижаем цены на СуперХит и СуперХит 2.0
+                </mj-text>
+            </mj-column>
+        </mj-section>        
+        <mj-section border="0"
+        			padding="0">
+        	<mj-column width="478px"
+        			   border-left="1px solid #d7d7d7"
+        			   border-right="1px solid #d7d7d7"
+        			   >
+        	    <mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superonline/zag.jpg" 
+        	    		  width="478px"
+        	    		  padding="0" />
+        	</mj-column>
+        </mj-section>
+        <mj-section border="0"
+        			padding="0">
+        	<mj-column width="478px"
+        			   border-left="1px solid #d7d7d7"
+        			   border-right="1px solid #d7d7d7"
+        			   >
+        	    <mj-text align="center"
+                		 color="#303030"
+                		 font-family="Helvetica, Arial, sans-serif"
+                		 font-size="21px"
+                		 font-weight="400"
+                		 line-height="0px"
+                		 padding-top="29px"
+                		 >
+                    Скидка 15% на годовые продукты
+                </mj-text>
+                <mj-text align="center"
+                		 color="#585858"
+                		 font-family="Helvetica, Arial, sans-serif"
+                		 font-size="15px"
+                		 font-weight="400"
+                		 line-height="20px"
+                		 padding-top="19px"
+                		 padding-bottom="32px"
+                		 >
+                    Продлевай СуперХит еще на год или переходи<br>на новую гигабитную версию СуперХит 2.0 со скидкой!
+                </mj-text>
+        	</mj-column>
+        </mj-section>
+        <mj-section border="0"
+        			padding="0">
+        	<mj-column width="478px"
+        			   border-left="1px solid #d7d7d7"
+        			   border-right="1px solid #d7d7d7"
+        			   >
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superonline/vizual.jpg" 
+        	    		  width="478px"
+        	    		  padding="0" />
+        	</mj-column>
+        </mj-section>
+        <mj-section border="0"
+        			padding="0">
+        	<mj-column width="478px"
+        			   border-left="1px solid #d7d7d7"
+        			   border-right="1px solid #d7d7d7"
+        			   background-color="#fff"
+        			   >
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/zag2.jpg" 
+        	    		  width="478px"
+        	    		  padding-top="28px" />
+        	</mj-column>
+        </mj-section>
+        <mj-section border="0"
+        			padding="0">
+        	<mj-column width="478px"
+        			   border-left="1px solid #d7d7d7"
+        			   border-right="1px solid #d7d7d7"
+        			   background-color="#fff"
+        			   >
+        		<mj-text align="center"
+                		 color="#585858"
+                		 font-family="Helvetica, Arial, sans-serif"
+                		 font-size="15px"
+                		 font-weight="400"
+                		 line-height="20px"
+                		 padding-top="0px"                		 
+                		 >
+                    Годовой продукт с максимальным наполнением<br>и сверхскоростным интернетом по технологии<br>«Оптический Гигабит»
+                </mj-text>
+        	</mj-column>
+        </mj-section>
+        <mj-section border="0"
+        			padding="0"
+        			>
+        	<mj-column width="275px"
+        			   background-color="#fff"
+        			   border-left="1px solid #d7d7d7"
+        			   >
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/icon1.jpg"
+        				  width="168px"
+        				  align="left"
+        				  padding-left="65px"
+        				  padding-top="45px"
+        				   />
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/icon3.jpg"
+        				  width="133px"
+        				  align="left"
+        				  padding-left="65px" 
+        				  padding-top="50px"
+        				  />
+				<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/icon5.jpg"
+        				  width="134px"
+        				  align="left"
+        				  padding-left="65px" 
+        				  padding-top="50px"
+        				  padding-bottom="36px"
+        				  />        				  
+        	</mj-column>
+        	<mj-column width="203px"
+        			   background-color="#fff"
+        			   border-right="1px solid #d7d7d7"
+        			   >
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/icon2.jpg"
+        				  width="146px"
+        				  align="left"
+        				  padding-left="0"
+        				  padding-top="45px"
+        				   />
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/icon4.jpg"
+        				  width="125px"
+        				  align="left"
+        				  padding-left="0" 
+        				  padding-top="50px"
+        				  />
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/icon6.jpg"
+        				  width="148px"
+        				  align="left"
+        				  padding-left="0" 
+        				  padding-top="50px"
+        				  padding-bottom="36px"
+        				  />
+        	</mj-column>
+        </mj-section>
+        <mj-section border="0"
+        			padding="0">
+        	<mj-column width="478px"
+        			   border-left="1px solid #d7d7d7"
+        			   border-right="1px solid #d7d7d7"
+        			   >
 
-        <mj-attributes>
-            <mj-all font-family="Arial" font-size="16px" />
-        </mj-attributes>
+        	</mj-column>
+        </mj-section>
 
-        <mj-style>
-            .email-header {
-            background: #eee;
-            text-transform: uppercase;
-            }
 
-            .email-footer {
-            background: #eee;
-            }
-        </mj-style>
-    </mj-head>
-    <mj-body>
-        <mj-container>
-            <!-- HEADER -->
-            <mj-section css-class="email-header">
-                <mj-text>Header</mj-text>
-            </mj-section>
-            <!-- /HEADER -->
-
-            <!-- CONTENT -->
-            <mj-section css-class="email-content">
-                <mj-text>Content</mj-text>
-            </mj-section>
-            <!-- /CONTENT -->
-
-            <!-- FOOTER -->
-            <mj-section css-class="email-footer">
-                <mj-text>Footer</mj-text>
-            </mj-section>
-            <!-- /FOOTER -->
-        </mj-container>
+        <mj-section border="0"
+        			padding="0">
+        	<mj-column width="478px"
+        			   border-left="1px solid #d7d7d7"
+        			   border-right="1px solid #d7d7d7"
+        			   background-color="#EC008C"
+        			   >
+        		<mj-text align="center"
+                		 color="#fff"
+                		 font-family="Helvetica, Arial, sans-serif"
+                		 font-size="17px"
+                		 font-weight="400"
+                		 line-height="22px"
+                		 padding-top="19px"
+                		 padding-bottom="0px"
+                		 >
+                    Подать заявку на подключение СуперХита 2.0
+                </mj-text>
+                <mj-button background-color="#EC008C"
+                		   href="tel:88007555051"
+                		   color="#fff"
+                		   font-family="Helvetica, Arial, sans-serif"
+                		   font-size="17px"
+                		   font-weight="700"
+                		   line-height="22px"
+                		   padding-top="0px"
+                		   padding-bottom="0px"
+                		   inner-padding="0"
+                >
+                	8 800 7 555 051
+                </mj-button>
+                <mj-button background-color="#EC008C"
+                		   href="https://planeta.tc/ekb/articles/inet/tariff/738d739?utm_source=email&utm_medium=link&utm_campaign=ny2018-sale-superhit"
+                		   color="#fff"
+                		   font-family="Helvetica, Arial, sans-serif"
+                		   font-size="17px"
+                		   font-weight="700"
+                		   line-height="22px"
+                		   padding-top="0px"
+                		   inner-padding="0"
+                >
+                	planeta.tc
+                </mj-button>
+        	</mj-column>
+        </mj-section>
     </mj-body>
 </mjml>
