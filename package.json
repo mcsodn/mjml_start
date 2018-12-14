@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/mcsodn/mjml_start#readme",
   "devDependencies": {
-    "gulp": "^4.0.0"
-  }
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-mjml": "^3.0.0"
+  },
+  "dependencies": {}
 }
