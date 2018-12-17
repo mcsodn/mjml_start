@@ -1,43 +1,59 @@
 <mjml>
-    <mj-body width="1920px"
-    		 background-color="#eee">
-        <mj-section border="0"
-        			padding="0">
-            <mj-column width="480px"            		   
+	<mj-head>
+		<mj-breakpoint width="160px" />
+		<mj-preview>Снижаем цены на СуперХит и СуперХит 2.0</mj-preview>
+		<mj-attributes>		    
+	    	<mj-all font-family="Helvetica, Arial, sans-serif" />
+	    	<mj-all width="480px" />
+
+	    	<mj-class name="section_b0p0"
+	    			  border="0"
+	    			  padding="0"
+	    			  background-color="#EEEEEE"
+	    			  full-width="full-width" />
+	    	
+	    	<mj-class name="column480_bl_br"
+	    			  width="480px"
+        			  border-left="1px solid #d7d7d7"
+        			  border-right="1px solid #d7d7d7" />
+        	
+        	<mj-class name="social_img"
+	    			  width="24px" 
+        			  padding="0"
+        			  target="_blank" />
+        	
+        	<mj-class name="column30_social"
+        			  width="30px"
+        			  padding="5px 0px 10px 0px" />
+        			  
+		</mj-attributes>
+	</mj-head>
+    <mj-body background-color="#EEEEEE">
+        <mj-section mj-class="section_b0p0">
+            <mj-column width="480px"
         			   padding="0">
                 <mj-text align="left"
                 		 color="#939aa4"
                 		 font-size="11px"
-                		 font-family="Helvetica, Arial, sans-serif"
                 		 line-height="0px"
-                		 padding-top="20px"
-                		 padding-left="16px"
-                		 padding-bottom="12px"
+                		 padding="20px 0px 12px 16px"
                 		 >
                     Снижаем цены на СуперХит и СуперХит 2.0
                 </mj-text>
             </mj-column>
         </mj-section>        
-        <mj-section border="0"
-        			padding="0">
-        	<mj-column width="478px"
-        			   border-left="1px solid #d7d7d7"
-        			   border-right="1px solid #d7d7d7"
-        			   >
-        	    <mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superonline/zag.jpg" 
+        <mj-section mj-class="section_b0p0">
+        	<mj-column mj-class="column480_bl_br">
+        	    <mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superonline/zag.jpg"
         	    		  width="478px"
         	    		  padding="0" />
         	</mj-column>
         </mj-section>
-        <mj-section border="0"
-        			padding="0">
-        	<mj-column width="478px"
-        			   border-left="1px solid #d7d7d7"
-        			   border-right="1px solid #d7d7d7"
-        			   >
+        <mj-section mj-class="section_b0p0">
+        	<mj-column mj-class="column480_bl_br"
+        			   background-color="#ECEDEE">
         	    <mj-text align="center"
-                		 color="#303030"
-                		 font-family="Helvetica, Arial, sans-serif"
+                		 color="#303030"                		 
                 		 font-size="21px"
                 		 font-weight="400"
                 		 line-height="0px"
@@ -47,7 +63,6 @@
                 </mj-text>
                 <mj-text align="center"
                 		 color="#585858"
-                		 font-family="Helvetica, Arial, sans-serif"
                 		 font-size="15px"
                 		 font-weight="400"
                 		 line-height="20px"
@@ -58,39 +73,28 @@
                 </mj-text>
         	</mj-column>
         </mj-section>
-        <mj-section border="0"
-        			padding="0">
-        	<mj-column width="478px"
-        			   border-left="1px solid #d7d7d7"
-        			   border-right="1px solid #d7d7d7"
-        			   >
-        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superonline/vizual.jpg" 
+        <mj-section mj-class="section_b0p0">
+        	<mj-column mj-class="column480_bl_br">
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superonline/vizual.jpg"         	    		  
         	    		  width="478px"
         	    		  padding="0" />
         	</mj-column>
         </mj-section>
-        <mj-section border="0"
-        			padding="0">
-        	<mj-column width="478px"
-        			   border-left="1px solid #d7d7d7"
-        			   border-right="1px solid #d7d7d7"
+        <mj-section mj-class="section_b0p0">
+        	<mj-column mj-class="column480_bl_br"
         			   background-color="#fff"
         			   >
-        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/zag2.jpg" 
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/zag2.jpg"
         	    		  width="478px"
         	    		  padding-top="28px" />
         	</mj-column>
         </mj-section>
-        <mj-section border="0"
-        			padding="0">
-        	<mj-column width="478px"
-        			   border-left="1px solid #d7d7d7"
-        			   border-right="1px solid #d7d7d7"
+        <mj-section mj-class="section_b0p0">
+        	<mj-column mj-class="column480_bl_br"
         			   background-color="#fff"
         			   >
         		<mj-text align="center"
-                		 color="#585858"
-                		 font-family="Helvetica, Arial, sans-serif"
+                		 color="#585858"                		 
                 		 font-size="15px"
                 		 font-weight="400"
                 		 line-height="20px"
@@ -98,12 +102,11 @@
                 		 >
                     Годовой продукт с максимальным наполнением<br>и сверхскоростным интернетом по технологии<br>«Оптический Гигабит»
                 </mj-text>
-        	</mj-column>
+        	</mj-column> 
         </mj-section>
-        <mj-section border="0"
-        			padding="0"
-        			>
-        	<mj-column width="275px"
+        <mj-section mj-class="section_b0p0"
+ >
+        	<mj-column width="50%"
         			   background-color="#fff"
         			   border-left="1px solid #d7d7d7"
         			   >
@@ -127,7 +130,7 @@
         				  padding-bottom="36px"
         				  />        				  
         	</mj-column>
-        	<mj-column width="203px"
+        	<mj-column width="50%"
         			   background-color="#fff"
         			   border-right="1px solid #d7d7d7"
         			   >
@@ -152,27 +155,12 @@
         				  />
         	</mj-column>
         </mj-section>
-        <mj-section border="0"
-        			padding="0">
-        	<mj-column width="478px"
-        			   border-left="1px solid #d7d7d7"
-        			   border-right="1px solid #d7d7d7"
-        			   >
-
-        	</mj-column>
-        </mj-section>
-
-
-        <mj-section border="0"
-        			padding="0">
-        	<mj-column width="478px"
-        			   border-left="1px solid #d7d7d7"
-        			   border-right="1px solid #d7d7d7"
+        <mj-section mj-class="section_b0p0">
+        	<mj-column mj-class="column480_bl_br"
         			   background-color="#EC008C"
         			   >
         		<mj-text align="center"
-                		 color="#fff"
-                		 font-family="Helvetica, Arial, sans-serif"
+                		 color="#fff"                		 
                 		 font-size="17px"
                 		 font-weight="400"
                 		 line-height="22px"
@@ -183,30 +171,196 @@
                 </mj-text>
                 <mj-button background-color="#EC008C"
                 		   href="tel:88007555051"
-                		   color="#fff"
-                		   font-family="Helvetica, Arial, sans-serif"
+                		   target="_blank"
+                		   color="#fff"                		   
                 		   font-size="17px"
                 		   font-weight="700"
                 		   line-height="22px"
                 		   padding-top="0px"
                 		   padding-bottom="0px"
                 		   inner-padding="0"
+                		   width="400px"
                 >
                 	8 800 7 555 051
                 </mj-button>
                 <mj-button background-color="#EC008C"
                 		   href="https://planeta.tc/ekb/articles/inet/tariff/738d739?utm_source=email&utm_medium=link&utm_campaign=ny2018-sale-superhit"
-                		   color="#fff"
-                		   font-family="Helvetica, Arial, sans-serif"
+                		   target="_blank"
+                		   color="#fff"                		   
                 		   font-size="17px"
                 		   font-weight="700"
                 		   line-height="22px"
                 		   padding-top="0px"
                 		   inner-padding="0"
+                		   width="400px"
                 >
                 	planeta.tc
                 </mj-button>
         	</mj-column>
+        </mj-section>
+        <mj-section mj-class="section_b0p0">
+        	<mj-column mj-class="column480_bl_br"
+        			   background-color="#ffffff"
+        			   >
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/zag3.jpg"        				  
+        				  width="478px"
+        				  padding-top="41px"
+        				  padding-bottom="0"
+        		/>
+        		<mj-text align="center"
+                		 color="#5C5C5C"                		 
+                		 font-size="15px"
+                		 font-weight="400"
+                		 line-height="20px"
+                		 padding-top="16px"
+                		 padding-bottom="44px"
+                		 >
+                    Максимум удовольствий еще на 365 дней
+                </mj-text>
+        	</mj-column>
+        </mj-section>
+        <mj-section mj-class="section_b0p0">        	
+    		<mj-column background-color="#ffffff"
+        			   border-left="1px solid #d7d7d7">
+    		    <mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/icon7.jpg"
+    				  width="133px"
+    				  align="left"
+    				   />
+    		</mj-column>
+    		<mj-column background-color="#ffffff"
+        			   border-right="1px solid #d7d7d7">
+    		    <mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/icon8.jpg"
+    				  width="130px"    		    
+    				  align="left"
+    				   />
+    		</mj-column>	    	
+        </mj-section>
+        <mj-section mj-class="section_b0p0">        	
+    		<mj-column background-color="#ffffff"
+        			   border-left="1px solid #d7d7d7">
+    			<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/icon5.jpg"
+    				  width="134px"
+    				  align="left"
+    				  />
+    			<mj-spacer height="16px" />
+    		</mj-column>
+    		<mj-column background-color="#ffffff"
+        			   border-right="1px solid #d7d7d7">
+    			<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/icon10.jpg"
+    				  width="151px"
+    				  align="left"
+    				  />
+    		</mj-column>	    	
+        </mj-section>
+        <mj-section mj-class="section_b0p0">
+        	<mj-column mj-class="column480_bl_br"
+        			   background-color="#ffffff"
+        			   padding="0"
+        			   >
+        		<mj-text align="center"
+                		 color="#5C5C5C"                		 
+                		 font-size="15px"
+                		 font-weight="400"
+                		 line-height="17px"
+                		 padding-top="31px"
+                		 padding-bottom="0"
+                		 >
+                    Для продления продукта СуперХит на вашем лицевом<br>счете должно быть не менее 11 131 ₽
+                </mj-text>
+        	</mj-column>
+        </mj-section>
+        <mj-section mj-class="section_b0p0">
+        	<mj-column mj-class="column480_bl_br"
+        			   background-color="#ffffff"
+        			   padding-top="20px"
+        			   >
+        		<mj-button background-color="#ec008c"        				   
+						   font-size="16px"
+						   font-weight="400"
+						   line-height="20px"
+						   width="388px"
+						   height="60px"
+						   inner-padding="0"
+						   href="https://planeta.tc/payment?utm_source=email&utm_medium=link&utm_campaign=ny2018-sale-superhit"
+						   target="_blank"
+        		>
+        			Продлить СуперХит со скидкой!
+        		</mj-button>
+        	</mj-column>
+        </mj-section>
+        <mj-section mj-class="section_b0p0">
+        	<mj-column mj-class="column480_bl_br"
+        			   background-color="#ffffff"
+        			   border-bottom="1px solid #d7d7d7"
+        			   >
+        		<mj-text align="center"
+                		 color="#707070"                		 
+                		 font-size="13px"
+                		 font-weight="400"
+                		 line-height="17px"
+                		 padding-top="30px"
+                		 padding-bottom="30px"
+                		 >
+                    Акция действует с 01.12.2018 по 31.12.2018 включительно.<br>Подробности акции узнавайте на сайте planeta.tc или<br>по бесплатному телефону 8-800-7-555-051
+                </mj-text>
+        	</mj-column>
+        </mj-section>
+        <mj-section mj-class="section_b0p0">
+        	<mj-column width="480px">
+        		<mj-image src="https://planeta.tc/upload-files/email/superhit2017/logo.png"
+        				  width="143px"
+        				  padding-top="31px"
+        				  padding-bottom="30px"
+        				  href="https://planeta.tc/?utm_source=email&utm_medium=link&utm_campaign=ny2018-sale-superhit"
+        				  target="_blank"
+        		/>
+        	</mj-column>
+        </mj-section>
+        <mj-section mj-class="section_b0p0">
+        	<mj-column width="480px">
+        		<mj-text align="center"
+                		 color="#939aa4"                		 
+                		 font-size="13px"
+                		 font-weight="400"
+                		 line-height="0"
+                		 >
+                    Планета в социальных сетях 
+                </mj-text>
+        	</mj-column>
+        </mj-section>
+        <mj-section mj-class="section_b0p0">
+        	<mj-column mj-class="column30_social">
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/1vk.jpg"
+        				  mj-class="social_img"        				  
+        				  href="http://vk.com/planetatc"
+        				  >
+        	</mj-column>
+        	<mj-column mj-class="column30_social">
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/2fb.jpg"
+        				  mj-class="social_img"
+        				  href="http://facebook.com/planeta.tc"
+        				  >
+        	</mj-column>
+        	<mj-column mj-class="column30_social">
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/3tv.jpg"
+        				  mj-class="social_img"
+        				  href="http://twitter.com/planeta_isp" >        		
+        	</mj-column>
+        	<mj-column mj-class="column30_social">
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/4ok.jpg"
+        				  mj-class="social_img"
+        				  href="http://ok.ru/planeta.isp" >
+        	</mj-column>
+        	<mj-column mj-class="column30_social">
+        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/5inst.png"
+        				  mj-class="social_img"
+        				  href="https://www.instagram.com/planeta.tc/" >
+        	</mj-column>
+        </mj-section>
+        <mj-section mj-class="section_b0p0">
+        	<mj-column mj-class="column30_social">
+                
+            </mj-column>
         </mj-section>
     </mj-body>
 </mjml>
