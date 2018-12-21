@@ -215,8 +215,8 @@
     				  padding-top="36px"
     				  align="left"
     				  />
-    		</mj-column>
-    		<mj-column background-color="#ffffff"
+    		</mj-column
+>    		<mj-column background-color="#ffffff"
         			   width="50%"
         			   border-right="1px solid #d7d7d7">
     		    <mj-image src="https://planeta.tc/upload-files/email/ny2018sale/superhit/icon8.jpg"
