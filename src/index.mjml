@@ -24,45 +24,17 @@
                       border-left="10px solid #EEEEEE"
                       border-right="10px solid #EEEEEE"
                       align="center"
-             />
-        	
-        	<mj-class name="social_img"
-                      width="24px" 
-	    			  height="24px" 
-            />
-        	
-        	<mj-class name="column30_social"
-        			  width="30px"
-        			  padding="5px 0px 10px 0px" />
-        	
-            <mj-style inline="inline">
-                .s_img {
-                    width: 24px!important;
-                    display: inline-block
-                }
-            </mj-style>
-
+             />        	
 
 		</mj-attributes>
         <mj-title>
-            Наш традиционный новогодний подарок
+            Наш традиционный новогодний подарок 
         </mj-title>
 	</mj-head>
     <mj-body background-color="#EEEEEE"
              width="500px"
              >
-        <mj-section mj-class="section_b0p0">
-            <mj-column mj-class="column500">
-                <mj-text align="left"
-                		 color="#9499A2"
-                		 font-size="11px"
-                		 line-height="0px"
-                		 padding="35px 0px 10px 0px"
-                		 >
-                    Наш традиционный новогодний подарок
-                </mj-text>
-            </mj-column>
-        </mj-section>        
+        <mj-include path="preheader.mjml" />
         <mj-section mj-class="section_b0p0">
         	<mj-column mj-class="column500">
         	    <mj-image src="https://planeta.tc/upload-files/email/nytop100/18-12-email_Top100_head.jpg"  />
@@ -77,10 +49,9 @@
                 		 color="#333333"
                 		 font-size="21px"
                 		 line-height="25px"
-                		 padding-top="31px"
-                		 padding-bottom="0"
+                         padding="31px 30px 0px 30px"
                 		 >
-                    Смотрите популярные телеканалы<br>бесплатно в&nbsp;новогодние каникулы!
+                    Смотрите популярные телеканалы бесплатно в&nbsp;новогодние каникулы!
                 </mj-text>
         	</mj-column>
         </mj-section>
@@ -93,12 +64,9 @@
                          font-size="15px"
                          font-weight="400"
                          line-height="20px"
-                         padding-top="21px"
-                         padding-bottom="0"
+                         padding="21px 30px 0px 30px"
                          >
-                    Традиционный подарок от&nbsp;Планеты &mdash;<br>
-                    суперпакет &laquo;ТОП 100&raquo; и&nbsp;все каналы в&nbsp;Ultra HD<br>
-                    в&nbsp;свободном доступе до&nbsp;9&nbsp;января 2019 года
+                    Традиционный подарок от&nbsp;Планеты&nbsp;&mdash; суперпакет&nbsp;&laquo;ТОП&nbsp;100&raquo; и&nbsp;все каналы в&nbsp;Ultra HD в&nbsp;свободном доступе до&nbsp;9&nbsp;января 2019&nbsp;года
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -110,33 +78,27 @@
                          color="#6E6E6E"
                          font-size="15px"
                          line-height="20px"
-                         padding-top="24px"
-                         padding-bottom="38px"
+                         padding="24px 30px 38px 30px"
                          >
-                    В&nbsp;этот период плата за&nbsp;пакет не&nbsp;будет списываться<br>со&nbsp;счета, просто продолжайте просмотр!
+                    Самое время подключить &laquo;ТОП&nbsp;100&raquo; и&nbsp;все праздники наслаждаться просмотром любимых фильмов и&nbsp;передач
                 </mj-text>
             </mj-column>
-        </mj-section>                
-        <mj-section mj-class="section_b0p0">
-        	<mj-column mj-class="column500"
-        			   background-color="#ffffff"        			   
-        			   >
-        		<mj-button background-color="#ec008c"        				   
-						   font-size="16px"
-						   font-weight="400"
-						   line-height="20px"
-						   width="388px"
-						   height="60px"
-						   inner-padding="0"
-						   href="https://planeta.tc/ekb/news/25-12-2018/1151?utm_source=email&utm_medium=link&utm_campaign=top100-free2018-on"
-						   target="_blank"
-						   border-radius="3px"
-                           rel="details"
-        		>
-        			Подробности на&nbsp;planeta.tc
-        		</mj-button>
-        	</mj-column>
         </mj-section>
+
+        <mj-section mj-class="section_b0p0">
+            <mj-column mj-class="column500"
+                       background-color="#ffffff"                      
+                       >
+                <mj-image src="https://planeta.tc/upload-files/email/nytop100/image2.png" 
+                          href="https://weburg.me/planeta?utm_source=email&utm_medium=link&utm_campaign=top100-free2018-off"
+                          target="_blank"
+                          width="387px"
+                          padding-left="10px"
+                          padding-right="10px"
+                          />
+            </mj-column>
+        </mj-section>
+
         <mj-section mj-class="section_b0p0">
         	<mj-column mj-class="column500"
         			   background-color="#ffffff"
@@ -145,10 +107,9 @@
                 		 color="#999999"
                 		 font-size="15px"
                 		 line-height="20px"
-                		 padding-top="45px"
-                		 padding-bottom="0px"
+                         padding="25px 35px 0px 35px"
                 		 >
-                    Напоминаем, с&nbsp;10&nbsp;января плата за&nbsp;пакет снова<br>будет взиматься. Включить и&nbsp;выключить &laquo;ТОП 100&raquo;<br>вы&nbsp;можете в&nbsp;любой момент
+                    Внимание! С&nbsp;10&nbsp;января 2019&nbsp;года за&nbsp;пакет будет взиматься плата. Включить и&nbsp;выключить &laquo;ТОП&nbsp;100&raquo; вы&nbsp;можете в&nbsp;любой момент
                 </mj-text>
                 <mj-text align="center"
                          color="#CA0088"
@@ -162,82 +123,8 @@
                 </mj-text>
         	</mj-column>
         </mj-section>
-        <mj-section mj-class="section_b0p0">
-        	<mj-column mj-class="column500">
-        		<mj-image src="https://planeta.tc/upload-files/email/superhit2017/logo.png"
-        				  width="143px"
-        				  padding-top="25px"
-        				  padding-bottom="20px"
-        				  href="https://planeta.tc/?utm_source=email&utm_medium=link&utm_campaign=top100-free2018-on"
-        				  align="center"
-        		/>
-        	</mj-column>
-        </mj-section>
-        <mj-section mj-class="section_b0p0">
-        	<mj-column mj-class="column500">
-        		<mj-text align="center"
-                		 color="#9499A2"
-                		 font-size="13px"
-                		 line-height="20px"
-                		 >
-                    Планета в социальных сетях 
-                </mj-text>
-        	</mj-column>
-        </mj-section>
-        <mj-section mj-class="section_b0p0" align="center">
-            
-	        	<mj-column mj-class="column30_social">
-	        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/1vk.jpg"
-	        				  mj-class="social_img"        				  
-	        				  href="http://vk.com/planetatc"
-	        				  >
-	        	</mj-column>
-	        	<mj-column mj-class="column30_social">
-	        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/2fb.jpg"
-	        				  mj-class="social_img"
-	        				  href="http://facebook.com/planeta.tc"
-	        				  >
-	        	</mj-column>
-	        	<mj-column mj-class="column30_social">
-	        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/3tv.jpg"
-	        				  mj-class="social_img"
-	        				  href="http://twitter.com/planeta_isp" >        		
-	        	</mj-column>
-	        	<mj-column mj-class="column30_social">
-	        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/4ok.jpg"
-	        				  mj-class="social_img"
-	        				  href="http://ok.ru/planeta.isp" >
-	        	</mj-column>
-	        	<mj-column mj-class="column30_social">
-	        		<mj-image src="https://planeta.tc/upload-files/email/ny2018sale/5inst.png"
-	        				  mj-class="social_img"
-	        				  href="https://www.instagram.com/planeta.tc/" >
-	        	</mj-column>
-            
-        </mj-section>
-        <mj-section mj-class="section_b0p0" align="center">            
-                <mj-column mj-class="column500">
-                    <mj-text align="center">
-                        <img src="https://planeta.tc/upload-files/email/ny2018sale/5inst.png" width="24" height="24">
-                        <img src="https://planeta.tc/upload-files/email/ny2018sale/5inst.png" width="24" height="24">
-                    </mj-text>
-                </mj-column>
-            
-        </mj-section>        
-        <mj-section mj-class="section_b0p0">
-            <mj-column mj-class="column500">
-                <mj-text align="center"
-                         color="#939aa4"
-                         font-size="13px"
-                         font-weight="400"
-                         line-height="20px"
-                         padding-top="50px"
-                         padding-bottom="0px"
-                         >
-                    Если вы&nbsp;не&nbsp;хотите получать рассылки,<br>сообщите нам об&nbsp;этом по&nbsp;телефону 8-800-7-555-051
-                </mj-text>
-            </mj-column>
-        </mj-section>        
+
+        <mj-include path="footer.mjml" /> 
         <mj-section mj-class="section_b0p0">
         	<mj-column>
         	    <mj-spacer height="25px" />
