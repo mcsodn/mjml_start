@@ -14,7 +14,13 @@ $.path.tasks.forEach(function (taskPath) {
     require(taskPath)();
 });
 
+$.gulp.task('build', $.gulp.series(
+    'clean',
+    'mjml',
+    'minifyHTML'
+));
+
 $.gulp.task('default', $.gulp.series(
-    $.gulp.parallel('mjml'),
+    'build',
     $.gulp.parallel('watch','serve')
 ));

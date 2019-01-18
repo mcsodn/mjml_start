@@ -1,0 +1,12 @@
+<mj-section mj-class="section_b0p0">
+    <mj-column mj-class="column500">
+        <mj-text align="left"
+        		 color="#9499A2"
+        		 font-size="11px"
+        		 line-height="0px"
+        		 padding="35px 0px 10px 0px"
+        		 >
+            Наш новый традиционный новогодний подарок
+        </mj-text>
+    </mj-column>
+</mj-section>

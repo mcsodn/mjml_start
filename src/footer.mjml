@@ -1,0 +1,27 @@
+<mj-section mj-class="section_b0p0">
+    <mj-column mj-class="column500">
+        <mj-image src="https://planeta.tc/upload-files/email/superhit2017/logo.png"
+                  width="143px"
+                  padding-top="25px"
+                  padding-bottom="20px"
+                  href="https://planeta.tc/?utm_source=email&utm_medium=link&utm_campaign=top100-free2018-on"
+                  align="center"
+        />
+    </mj-column>
+</mj-section>
+
+<mj-include path="social.mjml" />
+<mj-section mj-class="section_b0p0">
+    <mj-column mj-class="column500">
+        <mj-text align="center"
+                 color="#939aa4"
+                 font-size="13px"
+                 font-weight="400"
+                 line-height="20px"
+                 padding="50px 20px 0px 20px"
+                 text-decoration="none"
+                 >
+            Если вы&nbsp;не&nbsp;хотите получать рассылки,<br>сообщите нам об&nbsp;этом по&nbsp;телефону 8-800-7-555-051
+        </mj-text>
+    </mj-column>
+</mj-section> 

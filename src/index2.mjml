@@ -28,7 +28,7 @@
 
 		</mj-attributes>
         <mj-title>
-            Наш традиционный новогодний подарок
+            Наш традиционный новогодний подарок 
         </mj-title>
 	</mj-head>
     <mj-body background-color="#EEEEEE"
@@ -89,13 +89,29 @@
             <mj-column mj-class="column500"
                        background-color="#ffffff"                      
                        >
-                <mj-image src="https://planeta.tc/upload-files/email/nytop100/image2.png" 
-                          href="https://weburg.me/planeta?utm_source=email&utm_medium=link&utm_campaign=top100-free2018-off"
-                          target="_blank"
-                          width="387px"
-                          padding-left="10px"
-                          padding-right="10px"
-                          />
+                <mj-text align="center"
+                         height="60px"
+                >
+                    <center style="border-bottom:20px solid #ffffff;">
+                        <a
+                            href="https://planeta.tc/ekb/news/25-12-2018/1151?utm_source=email&utm_medium=link&utm_campaign=top100-free2018-on"
+                            target="_blank"
+                            style="
+                            color: #ffffff; 
+                            text-decoration: none; 
+                            font-size: 17px; 
+                            line-height: 200%; 
+                            border-top: 20px solid #ec008c; 
+                            border-bottom: 21px solid #ec008c; 
+                            border-left: 40px solid #ec008c; 
+                            border-right: 40px solid #ec008c; 
+                            background-color: #ec008c; 
+                            white-space: nowrap; 
+                            ">
+                            Подключить &laquo;ТОП&nbsp;100&raquo;
+                        </a>
+                    </center>
+                </mj-text>
             </mj-column>
         </mj-section>
 

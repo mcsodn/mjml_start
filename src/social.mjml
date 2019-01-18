@@ -1,0 +1,33 @@
+<mj-section mj-class="section_b0p0">
+	<mj-column mj-class="column500">
+		<mj-text align="center"
+        		 color="#9499A2"
+        		 font-size="13px"
+        		 line-height="20px"
+        		 padding-bottom="5px"
+        		 >
+            Планета в социальных сетях 
+        </mj-text>
+	</mj-column>
+</mj-section>
+<mj-section mj-class="section_b0p0" align="center">            
+    <mj-column mj-class="column500">
+        <mj-text align="center">
+			<a style="text-decoration: none" href="http://vk.com/planetatc" target="_blank" alt="ВКонтакте" title="Мы ВКонтакте">
+				<img style="width: 24px; height: 24px; border: 0; padding:0; maring:0;" src="https://planeta.tc/upload-files/email/ny2018sale/1vk.jpg">
+			</a>&nbsp;
+			<a style="text-decoration: none" href="http://facebook.com/planeta.tc" target="_blank" alt="Facebook" title="Будь в курсе">
+				<img style="width: 24px; height: 24px; border: 0; padding:0; maring:0;" src="https://planeta.tc/upload-files/email/ny2018sale/2fb.jpg">
+			</a>&nbsp;
+			<a style="text-decoration: none" href="http://twitter.com/planeta_isp" target="_blank" alt="Twitter" title="Следуй за нами">
+				<img style="width: 24px; height: 24px; border: 0; padding:0; maring:0;" src="https://planeta.tc/upload-files/email/ny2018sale/3tv.jpg">
+			</a>&nbsp;
+			<a style="text-decoration: none" href="http://ok.ru/planeta.isp" target="_blank" alt="Одноклассники" title="Мы в Одноклассниках">
+				<img style="width: 24px; height: 24px; border: 0; padding:0; maring:0;" src="https://planeta.tc/upload-files/email/ny2018sale/4ok.jpg">
+			</a>&nbsp;
+			<a style="text-decoration: none" href="https://www.instagram.com/planeta.tc/" target="_blank" alt="Одноклассники" title="Мы в Одноклассниках">
+				<img style="width: 24px; height: 24px; border: 0; padding:0; maring:0;" src="https://planeta.tc/upload-files/email/ny2018sale/5inst.png">
+			</a>
+        </mj-text>
+    </mj-column>
+</mj-section>
