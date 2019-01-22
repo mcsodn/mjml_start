@@ -4,7 +4,12 @@ module.exports = function () {
                 .pipe($.gp.htmlmin(
                 	{
                 		collapseWhitespace: true,
-                		collapseInlineTagWhitespace: true
+                		collapseInlineTagWhitespace: true,
+                		keepClosingSlash: true,
+                		minifyCSS: true,
+                		minifyJS: true,
+                		sortAttributes: true,
+                		sortClassName: true
                 	}
                 ))
                 .pipe($.gp.clean())
