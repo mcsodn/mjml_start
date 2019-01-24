@@ -11,7 +11,7 @@ module.exports = function () {
         	port: 465
         };
 		
-		/*TODO: mail's not sends*/
+		/*mail's not sends, sorry*/
         return $.gulp.src('build/index.html')
 		    .pipe($.gp.mail({
 		      subject: 'Email Test',
